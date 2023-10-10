@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: springdemo
-          image: smarsh-docker-snapshot-local.jfrog.io/springdemo:spring-demo-1692267355 # {"$imagepolicy": "flux-system:springdemo"}
+          image: smarsh-docker-snapshot-local.jfrog.io/springdemo:spring-demo-1692267356 # {"$imagepolicy": "flux-system:springdemo"}
           # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
